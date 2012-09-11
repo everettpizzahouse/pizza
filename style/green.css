@@ -1,0 +1,60 @@
+/* Green Color */
+
+::selection {
+color:#fff;
+background: #27c003; 
+}
+   
+::-moz-selection {
+color:#fff;
+background: #27c003;
+}
+
+a, a:visited{
+color:#27c003;
+}
+
+a:hover{
+color:#0b9c00;
+}
+
+header h1 i{
+color:#27c003;
+}
+
+.pnumber{
+background:#27c003;
+}
+
+.intro{
+background:#27c003 url('../img/backgrounds/green.png') repeat;
+}
+
+.button a, .button a:visited{
+background: url('../img/buttons/o-button.png') no-repeat;
+}
+
+.button a:hover{
+background: url('../img/buttons/o-button-hover.png') no-repeat;
+}
+
+
+.main h2{
+color:#27c003;
+}
+
+.info h3{
+color:#27c003;
+}
+
+blockquote small{
+color:#27c003;
+}
+
+p.flist i{
+color:#27c003;
+}
+
+footer{
+border-top:5px solid #27c003;
+}

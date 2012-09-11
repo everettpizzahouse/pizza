@@ -1,0 +1,59 @@
+/* Red Color */
+
+::selection {
+color:#fff;
+background: #f03805; 
+}
+   
+::-moz-selection {
+color:#fff;
+background: #f03805;
+}
+
+a, a:visited{
+color:#f03805;
+}
+
+a:hover{
+color:#eb0000;
+}
+
+header h1 i{
+color:#f03805;
+}
+
+.pnumber{
+background:#f03805;
+}
+
+.intro{
+background:#f03805 url('../img/backgrounds/red.png') repeat;
+}
+
+.button a, .button a:visited{
+background: url('../img/buttons/b-button.png') no-repeat;
+}
+
+.button a:hover{
+background: url('../img/buttons/b-button-hover.png') no-repeat;
+}
+
+.main h2{
+color:#f03805;
+}
+
+.info h3{
+color:#f03805;
+}
+
+blockquote small{
+color:#f03805;
+}
+
+p.flist i{
+color:#f03805;
+}
+
+footer{
+border-top:5px solid #f03805;
+}

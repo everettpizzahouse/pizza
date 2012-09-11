@@ -1,0 +1,545 @@
+/* Augusta CSS */
+
+body{
+font-family:Arial, Helvetica, sans-serif;
+font-size:13px;
+line-height:20px;
+background:#fff;
+color:#555;
+}
+
+h1,h2,h3,h4,h5,h6{
+font-family:'Oswald', sans-serif;
+font-weight:normal;
+}
+
+p{
+font-family:Arial, Helvetica, sans-serif;
+}
+
+.padd{
+padding:10px;
+}
+
+.social img{
+margin-right:5px;
+}
+
+a:active, a:focus { 
+border:none;
+outline:none;
+}
+
+a:-moz-any-link:focus { 
+outline:none; 
+}
+
+hr{
+padding:0px;
+margin:0px;
+height:0px;
+border-top:1px dashed #eee;
+margin-top:15px;
+}
+
+.well{
+background:#fafafa;
+padding:10px;
+}
+
+blockquote p{
+font-size:13px;
+line-height:18px;
+}
+
+.leftalign{
+float:left;
+margin-right:10px;
+margin-top:5px;
+}
+
+.rightalign{
+float:right;
+margin-left:10px;
+margin-top:5px;
+}
+
+h3 i, h2 i{
+margin-right:10px;
+}
+
+/* Header */
+
+header{
+padding:0px 0px;
+color:#fff;
+background:#444 url('../img/backgrounds/back.png') repeat;
+text-shadow:1px 1px 1px #000;
+}
+
+header h1{
+font-family: 'Merienda One', cursive;
+font-size:40px;
+line-height:50px;
+white-space: nowrap;
+}
+
+header h1 i{
+font-size:45px;
+}
+
+header h1 i.sw{
+font-size:35px;
+position:relative;
+left:-20px;
+color:#fff;
+margin-right:-20px;
+text-shadow:0px 0px 1px #000 !important;
+}
+
+header h1 a,header h1 a:visited,header h1 a:hover{
+color:#fff;
+text-decoration:none;
+}
+
+header p.phonenumber{
+font-family:'Oswald', sans-serif;
+font-size:20px;
+line-height:35px;
+margin:0 auto;
+margin-top:15px;
+text-align:center;
+color:#fff;
+letter-spacing:0.06em;
+}
+
+.pnumber{
+padding:0px 5px;
+}
+ 
+/* Intro */
+
+.intro{
+border-top:2px solid #000;
+color:#fff;
+padding:10px 0px;
+}
+
+.cta{
+margin-top:20px;
+}
+
+.screens{
+padding:3px 5px;
+}
+
+.intro h2{
+font-size:30px;
+line-height:30px;
+margin:5px 0px 10px 0px;
+text-shadow:0px 0px 1px #111;
+}
+
+.intro p.meta{
+font-size:16px;
+font-weight:bold;
+line-height:22px;
+text-shadow:0px 0px 1px #111;
+}
+
+.button{
+width:215px;
+float:left;
+}
+
+.demo{
+width:100px;
+float:left;
+line-height:60px;
+}
+
+.button a, .button a:visited{
+margin-left:-10px;
+display: block;
+text-indent:-39999px;
+height: 60px;
+width: 230px;
+background: url('../img/buttons/b-button.png') no-repeat;
+}
+
+.button a:hover{
+display: block;
+height: 60px;
+width: 230px;
+background: url('../img/buttons/b-button-hover.png') no-repeat;
+}
+
+.demo p{
+font-size:13px;
+}
+
+.demo a, .demo a:visited{
+font-weight:bold;
+color:#fff;
+text-decoration:none;
+border-bottom:1px dashed #fff;
+}
+
+.demo a:hover{
+border:none;
+text-decoration:none;
+color:#fff;
+}
+
+.subscribe-box .container{
+color:#fff;
+background:#444 url('../img/backgrounds/back.png') repeat;
+border-bottom-left-radius:5px;
+border-bottom-right-radius:5px;
+border-top:1px solid #000;
+padding-bottom:5px;
+}
+
+.subscribe-box .padd{
+padding:10px 10px 10px 20px;
+}
+
+.subscribe-box p{
+font-family:'Oswald', sans-serif;
+font-size:19px;
+line-height:25px;
+padding-top:5px;
+margin-bottom:0px;
+}
+
+.subscribe-box form{
+padding:5px;
+margin-bottom:0px;
+}
+
+/* Main */
+
+.main h2{
+font-size:25px;
+line-height:30px;
+margin-bottom:5px;
+padding:0px;
+background:url('../img/w-border.png') center center repeat-x;
+margin-top:10px;
+}
+
+.main h2 span{
+background:#fff;
+padding-right:8px;
+}
+
+.main h3{
+color:#555;
+margin:0px;
+padding:0px;
+font-size:18px;
+line-height:23px;
+margin-bottom:5px;
+padding-bottom:5px;
+}
+
+.main h4{
+margin:10px 0px;
+font-size:18px;
+line-height:23px;
+color:#555;
+}
+
+.main h5{
+color:#555;
+font-size:16px;
+margin-bottom:5px;
+}
+
+.padd-h{
+padding:5px 10px;
+}
+
+/* Products */
+
+.prod{
+margin:0px 0px 10px 0px;
+padding:5px 10px;
+}
+
+.prod-details{
+border-bottom:1px dashed #eee;
+}
+
+.prod-img{
+float:left;
+max-width:170px;
+}
+
+.prod img{
+padding:1px;
+border:1px solid #aaa;
+margin-right:10px;
+max-width:150px;
+}
+
+/* Gallery & Features */
+
+p.flist{
+padding-left:10px;
+}
+
+p.flist i{
+font-size:15px;
+float:left;
+width:20px;
+}
+
+.gallery img{
+margin:3px;
+padding:1px;
+border:1px solid #ddd;
+}
+
+/* Testimonials & Video */
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Info */
+
+.info{
+text-align:center;
+line-height:25px;
+}
+
+.buynow{
+margin-bottom:20px;
+margin-top:10px;
+}
+
+.info h2{
+margin:5px 0px;
+border-bottom:0px;
+}
+
+.info h2 span{
+padding-left:8px;
+}
+
+.info a.btn{
+text-shadow:1px 1px 1px #333;
+font-weight:bold;
+text-transform:uppercase;
+}
+
+.info i{
+font-size:18px;
+}
+
+.info a.btn{
+color:#fff !important;
+}
+
+.sponsors{
+background:#fcfcfc;
+text-align:center;
+border:1px solid #eee;
+}
+
+.sponsors h2 span{
+padding-left:8px;
+background:#fcfcfc;
+}
+
+.sponsors img{
+padding:10px;
+}
+
+/* Footer */
+
+footer{
+background:#444 url('../img/backgrounds/back.png') repeat;
+color:#ccc;
+padding:10px 0px;
+font-size:12px;
+}
+
+footer hr{
+border:0px;
+margin:5px 0px;
+padding:0px;
+height:5px;
+background:url('../img/b-border.png') repeat-x;
+}
+
+footer a, footer a:visited{
+color:#eee;
+}
+
+footer a:hover{
+color:#ccc;
+}
+
+.foot h3{
+margin:0px;
+padding:0px;
+padding-bottom:5px;
+margin-bottom:5px;
+}
+
+.foot ul{
+list-style-type:none;
+margin-left:0px;
+}
+
+.foot ul li{
+padding:5px 0px;
+border-bottom:1px dotted #eee;
+}
+
+.social img{
+margin:5px;
+}
+
+.copy{
+margin-top:10px;
+}
+
+.form{
+margin:10px 0px;
+}
+
+.form-horizontal input, .form-horizontal textarea{
+width:90%;
+}
+
+.form-horizontal .control-label {
+width: 80px;
+}
+
+.form-horizontal .controls {
+margin-left: 100px;
+}
+
+.form-horizontal .controls:first-child {
+*padding-left: 100px;
+}
+
+.form-horizontal .form-actions {
+padding-left: 100px;
+}
+
+.form-actions {
+padding: 10px 20px 11px;
+background:transparent;
+border-top:0px;
+}
+
+.contact i{
+margin-right:3px;
+color:#fff;
+}
+
+/* Responsive */
+
+@media (max-width: 480px){
+   .form-horizontal .form-actions {
+   padding-left:0px !important;
+   padding-right:0px !important;
+   }
+   .form-horizontal{
+   padding-left:15px;
+   }
+   .info .btn{
+   display:block;
+   margin:5px 10px -10px 10px;
+   }
+   .main h2{
+   background:transparent;
+   }
+}
+
+@media (max-width: 767px){
+   .padd{
+   padding:5px 10px;
+   }
+   header, .intro, .subscribe-box, footer{
+   margin-left:-20px;
+   margin-right:-20px;
+   }
+   header h1{
+   text-align:center;
+   }
+   header p.phonenumber{
+   margin-top:0px;
+   }
+   .promatter{
+   display:none;
+   }
+   .intro h2, .intro p{
+   text-align:center;
+   }
+   .cta{
+   margin-top:0px;
+   }  
+   .buttons{
+   width:100%;
+   display:block;
+   text-align:center;
+   margin:0 auto;
+   }
+   .button{
+   display:block;
+   float:none;
+   margin:0px auto;
+   }
+   .demo{
+   float:none;
+   display:block;
+   margin:0px auto;
+   line-height:20px;
+   }
+   .or{
+   display:block;
+   }
+   .button a{
+   display:block;
+   margin-left:0px;
+   } 
+   footer .padd{
+   padding-left:20px;
+   padding-right:20px;
+   }
+   .subscribe-box form{
+   padding-top:0px;
+   }
+}
+
+@media (min-width: 768px) and (max-width: 979px){
+   .screens{
+   padding-top:20px;
+   }
+   .cta{
+   margin-top:0px;
+   }
+}
+
+@media (max-width: 979px){
+
+}

@@ -1,0 +1,59 @@
+/* Blue Color */
+
+::selection {
+color:#fff;
+background: #00b7bc; 
+}
+   
+::-moz-selection {
+color:#fff;
+background: #00b7bc;
+}
+
+a, a:visited{
+color:#00b7bc;
+}
+
+a:hover{
+color:#009498;
+}
+
+header h1 i{
+color:#00b7bc;
+}
+
+.pnumber{
+background:#00b7bc;
+}
+
+.intro{
+background:#00b7bc url('../img/backgrounds/blue1.png') repeat;
+}
+
+.button a, .button a:visited{
+background: url('../img/buttons/o-button.png') no-repeat;
+}
+
+.button a:hover{
+background: url('../img/buttons/o-button-hover.png') no-repeat;
+}
+
+.main h2{
+color:#00b7bc;
+}
+
+.info h3{
+color:#00b7bc;
+}
+
+blockquote small{
+color:#00b7bc;
+}
+
+p.flist i{
+color:#00b7bc;
+}
+
+footer{
+border-top:5px solid #00b7bc;
+}
